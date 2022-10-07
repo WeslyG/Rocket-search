@@ -1,0 +1,10 @@
+body {
+	display: flex;
+	height: 25px;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#search {
+	width: 100%
+}

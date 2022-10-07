@@ -1,0 +1,11 @@
+{
+	"name": "Shoping search",
+	"description": "Одновременно найти товар во всех маркетплейсах!",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_title": "Поиск по всем магазинам",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
