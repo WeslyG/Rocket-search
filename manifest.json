@@ -1,11 +1,19 @@
 {
-	"name": "Shoping search",
+	"name": "Rocket search",
 	"description": "Одновременно найти товар во всех маркетплейсах!",
-	"version": "1.0",
+	"version": "1.1",
 	"manifest_version": 3,
+	"permissions": [
+		"contextMenus",
+		"tabs"
+	],
 	"action": {
 		"default_title": "Поиск по всем магазинам",
 		"default_icon": "icon.png",
 		"default_popup": "popup.html"
+	},
+	"background": {
+		"service_worker": "background.js",
+		"type": "module"
 	}
 }
